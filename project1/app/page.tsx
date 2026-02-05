@@ -1,10 +1,20 @@
 import Image from "next/image";
+import Header from "../components/Header";
 
 export default function Home() {
   return (
-    <main className = "flex min-h-screen flex-col items-center justify-between p-24">
-      Hola Twitter 
-    </main>
+    <>
+    
+      <Header/>
+    
+    <main>
+      <h1 className="text-center text-4xl font-bold">Saúl Rabadán</h1>
 
+      <p className= "text-center m-2">Desarrollador full-stack (becario de informance)</p>
+
+
+
+    </main>
+    </>
   )
 }
